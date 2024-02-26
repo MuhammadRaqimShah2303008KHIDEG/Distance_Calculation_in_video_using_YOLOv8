@@ -60,7 +60,3 @@ while cap.isOpened():
 cap.release()
 video_writer.release()
 cv2.destroyAllWindows()
-
-'''
-
-
