@@ -18,6 +18,11 @@ Measuring the gap between two objects is known as distance calculation within a 
 
 * Click on any two bounding boxes with Left Mouse click for distance calculation
 
+## Note 
+
+* Mouse Right Click will delete all drawn points
+* Mouse Left Click can be used to draw points
+
 ## Distance Calculation using YOLOv8 Example
 
 ```python
@@ -56,8 +61,6 @@ cap.release()
 video_writer.release()
 cv2.destroyAllWindows()
 
+'''
 
-## Note 
 
-* Mouse Right Click will delete all drawn points
-* Mouse Left Click can be used to draw points
